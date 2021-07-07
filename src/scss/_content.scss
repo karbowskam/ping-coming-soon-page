@@ -1,4 +1,93 @@
-body {
-  color: #7fffd4;
-  background-color: brown;
+.body {
+  background-color: #fff;
+  min-width: 375px;
+}
+
+.main {
+  width: 325px;
+  margin: 0 auto;
+  text-align: center;
+
+  &__logo {
+    margin-top: 25%;
+    width: 15%;
+    height: 15%;
+  }
+
+  &__header {
+    margin-top: 11%;
+    font-family: "light", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+
+    &--opacity {
+      opacity: 0.4;
+    }
+
+    &--bold {
+      font-family: "bold", Arial, Helvetica, sans-serif;
+      font-weight: 700;
+      opacity: 1;
+    }
+  }
+
+  &__paragraph {
+    margin: 3% 0 10% 0;
+    font-family: "semi-bold", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    opacity: 0.75;
+  }
+
+  &__input-info {
+    &--danger {
+      color: red;
+      font-size: 12px;
+      font-style: italic;
+      opacity: 0.75;
+    }
+  }
+
+  &__input {
+    display: block;
+    margin: 8px auto;
+    height: 40px;
+    border-radius: 50px;
+    width: 80%;
+    font-size: 14px;
+
+    &--empty {
+      padding-left: 30px;
+      text-align: left;
+      border: $blue 1px solid;
+      color: black;
+      opacity: 0.5;
+
+      &::placeholder {
+        color: $blue;
+        opacity: 0.5;
+      }
+
+      &:focus {
+        outline: none;
+        border: #000 1px solid;
+      }
+    }
+
+    &--danger {
+      border: red 1px solid;
+    }
+
+    &--button {
+      text-align: center;
+      border: $pale-blue 1px solid;
+      color: #fff;
+      background: $blue;
+      cursor: pointer;
+
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
 }

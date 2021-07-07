@@ -4,30 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Frontend Mentor | Ping coming soon page</title>
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
   </head>
   <body class="body">
-    <section class="main">
+    <form class="main">
       <img class="main__logo" src="../img/logo.svg" alt="logo PING" />
-      <h1 class="main__header">We are launching <span class="main__header--bold">soon!</span></h1>
+      <h1 class="main__header">
+        <span class="main__header--opacity">We are launching </span><span class="main__header--bold">soon!</span>
+      </h1>
       <p class="main__paragraph">Subscribe and get notified</p>
       <input
-        class="main__input--empty"
+        class="main__input main__input--empty"
         required
-        type="email"
+        type="text"
         placeholder="Your email address..."
-        id="adres-email"
-        name="adres-email"
+        id="email-adress"
+        name="email-adress"
       />
-      <input class="main__input--button" name="zapisz" type="submit" value="Notify Me" />
+      <span class="main__input-info--danger"></span>
+      <input class="main__input main__input--button" name="zapisz" type="submit" value="Notify Me" />
       <img class="main__image-dashboard" src="../img/illustration-dashboard.png" alt="obazek z wykresami" />
-    </section>
-    <footer class="footer">
-      <i class="footer__facebook-logo fab fa-facebook-f"></i>
-      <i class="footer__twitter-logo fab fa-twitter"></i>
-      <i class="footer__instagram-logo fab fa-instagram"></i>
+    </form>
+    <footer class="main-footer">
+      <div class="footer">
+        <div class="icon-media">
+          <a class="icon-media__link" href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <div class="icon-media">
+          <a class="icon-media__link" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="icon-media">
+          <a class="icon-media__link" href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
       <p class="footer__copyright">
-        <i class="footer__copyright--logo far fa-copyright"></i> Copyright Ping. All right reserved.
+        <i class="footer__copyright footer__copyright--mark far fa-copyright"></i> Copyright Ping. All rights reserved.
       </p>
     </footer>
     <script src="https://kit.fontawesome.com/0342890bbe.js" crossorigin="anonymous"></script>

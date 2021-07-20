@@ -116,6 +116,23 @@
   text-align: center;
   list-style: none;
   display: inline-block;
+
+  &__copyright {
+    font-family: "light", Arial, Helvetica, sans-serif;
+    margin: 25px 0 25px;
+    font-size: 10px;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &--mark {
+      font-size: 7px;
+      line-height: normal;
+      opacity: 0.6;
+      margin: 0 2px;
+    }
+  }
 }
 
 .icon-media {
@@ -145,22 +162,5 @@
     text-decoration: none;
     color: inherit;
     opacity: 0.9;
-  }
-}
-
-.footer__copyright {
-  font-family: "light", Arial, Helvetica, sans-serif;
-  margin: 25px 0 25px;
-  font-size: 10px;
-  opacity: 0.3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  &--mark {
-    font-size: 7px;
-    line-height: normal;
-    opacity: 0.6;
-    margin: 0 2px;
   }
 }

@@ -72,12 +72,16 @@
 
       &:focus {
         outline: none;
-        border: #000 1px solid;
+        border: $blue 1.5px solid;
       }
     }
 
     &--danger {
-      border: red 1px solid;
+      border: red 1.3px solid;
+
+      &:focus {
+        border: red 1.3px solid;
+      }
     }
 
     &--button {

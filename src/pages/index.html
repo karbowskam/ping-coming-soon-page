@@ -12,16 +12,20 @@
         <span class="main__header--opacity">We are launching </span><span class="main__header--bold">soon!</span>
       </h1>
       <p class="main__paragraph">Subscribe and get notified</p>
-      <input
-        class="main__input main__input--empty"
-        required
-        type="text"
-        placeholder="Your email address..."
-        id="email-adress"
-        name="email-adress"
-      />
-      <span class="main__input-info--danger"></span>
-      <input class="main__input main__input--button" name="zapisz" type="submit" value="Notify Me" />
+      <div class="grid">
+        <div class="grid__left">
+          <input
+            class="main__input main__input--empty"
+            required
+            type="text"
+            placeholder="Your email address..."
+            id="email-adress"
+            name="email-adress"
+          />
+        </div>
+        <span class="main__input-info--danger"></span>
+        <div class="grid__right"><input class="main__input main__input--button" name="zapisz" type="submit" value="Notify Me" /></div>
+      </div>
       <img class="main__image-dashboard" src="../img/illustration-dashboard.png" alt="obazek z wykresami" />
     </form>
     <footer class="main-footer">

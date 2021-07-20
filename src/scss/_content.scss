@@ -42,9 +42,11 @@
   &__input-info {
     &--danger {
       color: red;
-      font-size: 12px;
+      font-size: 10px;
       font-style: italic;
       opacity: 0.75;
+      display: block;
+      margin-bottom: 20px;
     }
   }
 
@@ -70,12 +72,16 @@
 
       &:focus {
         outline: none;
-        border: #000 1px solid;
+        border: $blue 1.5px solid;
       }
     }
 
     &--danger {
-      border: red 1px solid;
+      border: red 1.3px solid;
+
+      &:focus {
+        border: red 1.3px solid;
+      }
     }
 
     &--button {
@@ -84,6 +90,7 @@
       color: #fff;
       background: $blue;
       cursor: pointer;
+      box-shadow: 3px 11px 8px -10px rgba(0, 0, 0, 0.36);
 
       &:hover {
         opacity: 0.75;
@@ -115,8 +122,8 @@
   color: $blue;
   border: $opacity-blue 1px solid;
   border-radius: 50%;
-  width: 20px;
-  height: 20px;
+  width: 28px;
+  height: 28px;
   text-align: center;
   list-style: none;
   display: inline-block;
@@ -133,8 +140,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5%;
-    font-size: 10px;
+    padding: 4%;
+    font-size: 13px;
     text-decoration: none;
     color: inherit;
     opacity: 0.9;

@@ -6,28 +6,34 @@
     <title>Frontend Mentor | Ping coming soon page</title>
   </head>
   <body class="body">
-    <form class="main">
-      <img class="main__logo" src="../img/logo.svg" alt="logo PING" />
-      <h1 class="main__header">
-        <span class="main__header--opacity">We are launching </span><span class="main__header--bold">soon!</span>
-      </h1>
-      <p class="main__paragraph">Subscribe and get notified</p>
-      <div class="grid">
-        <div class="grid__left">
-          <input
-            class="main__input main__input--empty"
-            required
-            type="text"
-            placeholder="Your email address..."
-            id="email-adress"
-            name="email-adress"
-          />
+    <main>
+      <form class="main">
+        <header>
+        <img class="main__logo" src="../img/logo.svg" alt="logo PING" />
+        <h1 class="main__header">
+          <span class="main__header--opacity">We are launching </span><span class="main__header--bold">soon!</span>
+        </h1>
+      </header>
+        <p class="main__paragraph">Subscribe and get notified</p>
+        <div class="grid">
+          <div class="grid__left">
+            <input
+              class="main__input main__input--empty"
+              required
+              type="text"
+              placeholder="Your email address..."
+              id="email-adress"
+              name="email-adress"
+            />
+          </div>
+          <span class="main__input-info--danger"></span>
+          <div class="grid__right">
+            <input class="main__input main__input--button" name="zapisz" type="submit" value="Notify Me" />
+          </div>
         </div>
-        <span class="main__input-info--danger"></span>
-        <div class="grid__right"><input class="main__input main__input--button" name="zapisz" type="submit" value="Notify Me" /></div>
-      </div>
-      <img class="main__image-dashboard" src="../img/illustration-dashboard.png" alt="obazek z wykresami" />
-    </form>
+        <img class="main__image-dashboard" src="../img/illustration-dashboard.png" alt="obazek z wykresami" />
+      </form>
+    </main>
     <footer class="main-footer">
       <div class="footer">
         <div class="icon-media">

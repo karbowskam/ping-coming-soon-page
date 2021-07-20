@@ -148,19 +148,21 @@
   }
 }
 
-.footer__copyright {
-  font-family: "light", Arial, Helvetica, sans-serif;
-  margin: 25px 0 25px;
-  font-size: 10px;
-  opacity: 0.3;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.footer {
+  &__copyright {
+    font-family: "light", Arial, Helvetica, sans-serif;
+    margin: 25px 0 25px;
+    font-size: 10px;
+    opacity: 0.3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
-  &--mark {
-    font-size: 7px;
-    line-height: normal;
-    opacity: 0.6;
-    margin: 0 2px;
+    &--mark {
+      font-size: 7px;
+      line-height: normal;
+      opacity: 0.6;
+      margin: 0 2px;
+    }
   }
 }

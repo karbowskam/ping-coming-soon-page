@@ -1,7 +1,5 @@
 import "../scss/_main.scss";
 
-console.log("Hello world");
-
 let newItemForm = document.getElementsByClassName("main");
 
 newItemForm[0].addEventListener("submit", (event) => {

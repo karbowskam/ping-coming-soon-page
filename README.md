@@ -1,35 +1,35 @@
-# Installation
+## Table of contents
 
-Simple toolkit for my static websites development.
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
 
-## How to use it?
+## Overview
 
-Go to https://github.com/karbowskam/full-starter-kit (this repository) and click on `Use this template` button to generate a new repository based on this starter kit. 
-After clone it to your computer, go to the project directory in console and type `npm install`.
-If you want to use gh pages, you need to configure it in gh pages settings. It's require to change your project visibility to public.
+This is a solution to the [Ping single column coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da)
 
-## Available scripts
 
-`npm run start` - runs development mode with validation
+### Screenshot
 
-`npm run build` - runs build process for production and creates dist folder (ready to publish) with validation
+![](src/img/desktop-screenshot.png)
+![](src/img/mobile-screenshot.png)
 
-`npm run build-dev` - runs development mode without validation
 
-`npm run build-prod`- runs build process for production and creates dist folder (ready to publish) without validation
+### Links
 
-`npm run publish` - runs build process and publish the page using `gh-pages` branch (you have to configure using gh pages on github first)
+- Live Site URL: (https://karbowskam.github.io/ping-coming-soon-page/)
 
-`npm run test` - runs validation (html, css, js)
+## My process
 
-`npm run test-html` - runs html validation
+### Built with
 
-`npm run test-html-lint` - runs html linting (format code)
-
-`npm run test-css` - runs css validation
-
-`npm run test-css-lint` - runs css linting (format code)
-
-`npm run test-js` - runs js validation
-
-`npm run test-js-lint` - runs js linting (format code)
+- Semantic HTML5 markup
+- CSS custom properties
+- CSS Grid
+- SASS
+- Gulp
+- NPM
+- Media queries
+- Little Java Script :)

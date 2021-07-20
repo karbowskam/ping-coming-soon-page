@@ -8,25 +8,25 @@
     width: 500px;
 
     &__logo {
-      margin-top: 13%;
-      width: 10%;
-      height: 10%;
+      margin-top: 12%;
+      width: 13%;
+      height: 13%;
     }
 
     &__header {
-      font-size: 27px;
-      margin: 4% 0 10px 0;
+      font-size: 34px;
+      margin: 5% 0 10px 0;
     }
 
     &__paragraph {
-      font-size: 12px;
-      margin: 0 0 5% 0;
+      font-size: 17px;
+      margin: 15px 0 5% 0;
     }
 
     &__input {
-      width: 100%;
-      height: 33px;
-      font-size: 11px;
+      width: 105%;
+      height: 40px;
+      font-size: 14px;
       margin-bottom: 0;
 
       &--empty {
@@ -43,19 +43,19 @@
     }
 
     &__image-dashboard {
-      width: 80%;
-      height: 80%;
+      width: 90%;
+      height: 90%;
       margin-top: 20px;
     }
   }
 
   .grid {
-    width: 380px;
+    width: 450px;
     margin: 0 auto;
-    column-gap: 15px;
+    column-gap: 27px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 50px 20px;
+    grid-template-rows: 60px 20px;
     grid-template-areas:
       "empty empty button"
       "danger danger .";
@@ -70,23 +70,28 @@
   }
 
   .icon-media {
-    width: 23px;
-    height: 23px;
+    width: 38px;
+    height: 38px;
 
     &__link {
-      font-size: 12px;
+      font-size: 18px;
     }
   }
 
   .main-footer {
-    margin-top: 40px;
+    margin-top: 60px;
   }
 
-  .footer__copyright {
-    margin-top: 10px;
+  .footer {
+    &__copyright {
+      font-size: 15px;
+      margin-top: 10px;
 
-    &--mark {
-      margin-top: 0;
+      &--mark {
+        margin-top: 0;
+        font-size: 10px;
+        margin: 5px 2px;
+      }
     }
   }
 }
